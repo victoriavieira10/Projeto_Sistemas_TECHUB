@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: #267dff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+}
+
+#conteudo-nav {
+  width: 1700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 64px;
+}
+
+#logo {
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+  font-weight: 600;
+  align-items: center;
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+a {
+  border-radius: 25px;
+  padding: 10px 30px;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#botao-login:hover {
+  background: #fff;
+  color: #267dff;
+  transition: all 1s;
+}
+
+main {
+  display: flex;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 64px;
+}
+
+#container-info,
+#container-img {
+  width: 50%;
+}
+
+#container-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#botao-cadastro {
+  color: #267dff;
+  border-color: #267dff;
+  max-width: 250px;
+  margin-top: 10px;
+}
+
+#botao-cadastro:hover {
+  background: #267dff;
+  color: #fff;
+  transition: all 1s;
+}
+
+h1 {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  color: #c6c6c6;
+  width: 600px;
+  margin: 20px 0;
+}
